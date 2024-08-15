@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>El Fútbol</title>
+	<style>
+		/* Estilo para el cuerpo de la página */
+	    body {
+	        background-color: beige;
+	        font-family: Arial, sans-serif;
+	        margin: 0;
+	        padding: 0;
+	    }
+
+	    /* Estilo para el menú de navegación */
+	    nav {
+	        background-color: darkgreen;
+	        color: white;
+	        width: 100%;
+	        height: 50px;
+	        float: left;
+	        padding: 10px;
+	    }
+
+	    nav ul {
+	        list-style-type: none;
+	        margin: 0;
+	        padding: 0;
+	        display: flex;
+	    }
+
+	    nav ul li {
+	        margin-right: 20px;
+	    }
+
+	    nav ul li a {
+	        color: white;
+	        text-decoration: none;
+	    }
+
+	    nav ul li a:hover {
+	        text-decoration: underline;
+	    }
+
+	    /* Estilos para encabezados */
+	    h1 {
+	        font-size: 36px;
+	        color: darkblue;
+	    }
+
+	    h2 {
+	        font-size: 28px;
+	        color: darkblue;
+	    }
+
+	    h3 {
+	        font-size: 24px;
+	        color: darkred;
+	    }
+
+	    /* Estilo para los artículos */
+	    section {
+	        padding: 20px;
+	    }
+
+	    article {
+	        margin-bottom: 20px;
+	    }
+
+	    /* Selector descendente para listas dentro de artículos */
+	    article ul {
+	        list-style-type: square;
+	        padding-left: 20px;
+	    }
+
+	    /* Estilo para párrafos dentro de artículos */
+	    article p {
+	        font-size: 18px;
+	        color: darkgreen;
+	        line-height: 1.6;
+	    }
+
+	    /* Pseudo-clase hover para enlaces */
+	    a:hover {
+	        color: darkred;
+	    }
+
+	    /* Clase personalizada para destacar párrafos */
+	    .destacado {
+	        font-weight: bold;
+	        font-size: 20px;
+	        color: darkblue;
+	        background-color: lightyellow;
+	        padding: 10px;
+	        border-left: 5px solid darkblue;
+	    }
+
+	    /* ID personalizado para destacar una sección */
+	    #cursos-en-linea p {
+	        color: darkblue;
+	        font-style: italic;
+	    }
+	    
+	    /* Estilo para el pie de página */
+	    footer {
+	        background-color: darkblue;
+	        color: white;
+	        text-align: center;
+	        padding: 20px;
+	        position: relative;
+	        bottom: 0;
+	        width: 100%;
+	    }
+	    
+	    /* Estilo para la imagen */
+	    img {
+	        display: block;
+	        margin: 20px auto;
+	        max-width: 100%;
+	        height: auto;
+	    }
+	</style>
+</head>
+<body>
+<header>Análisis del Fútbol - HEADER</header>
+
+<!-- Menú de navegación -->
+<nav>
+	<ul>
+		<li><a href="#cursos-en-linea">Cursos en Línea</a></li>
+		<li><a href="#mejores-clubes-mundo">Mejores Clubes del Mundo</a></li>
+		<li><a href="#mejores-clubes-colombia">Mejores Clubes de Colombia</a></li>
+		<li><a href="https://www.fifa.com" target="_blank">Sitio Oficial de la FIFA</a></li>
+		<li><a href="https://www.uefa.com" target="_blank">Sitio Oficial de la UEFA</a></li>
+		<li><a href="https://www.conmebol.com" target="_blank">Sitio Oficial de la CONMEBOL</a></li>
+	</ul>
+</nav>
+
+<section>
+	<h1>El Fútbol</h1>
+	<article id="cursos-en-linea">
+		<h2>Cursos en Línea sobre Fútbol</h2>
+		<p class="destacado">Si deseas aprender más sobre el fútbol, existen varios cursos en línea que puedes tomar.</p>
+		<p>Algunos sitios recomendados son:</p>
+		<ul>
+			<li><a href="https://www.coursera.org/courses?query=futbol" target="_blank">Coursera - Cursos de Fútbol</a></li>
+			<li><a href="https://www.udemy.com/topic/football/" target="_blank">Udemy - Cursos de Fútbol</a></li>
+			<li><a href="https://www.futurelearn.com/subjects/sport-and-exercise-courses/football" target="_blank">FutureLearn - Cursos de Fútbol</a></li>
+		</ul>
+	</article>
+
+	<article id="mejores-clubes-mundo">
+		<h2>Los Mejores Clubes del Mundo</h2>
+		<p>Algunos de los clubes de fútbol más prestigiosos a nivel mundial son:</p>
+		<ul>
+			<li><a href="https://www.realmadrid.com" target="_blank">Real Madrid CF</a></li>
+			<li><a href="https://www.fcbarcelona.com" target="_blank">FC Barcelona</a></li>
+			<li><a href="https://www.manutd.com" target="_blank">Manchester United FC</a></li>
+			<li><a href="https://www.liverpoolfc.com" target="_blank">Liverpool FC</a></li>
+			<li><a href="https://www.bayern.com" target="_blank">FC Bayern Munich</a></li>
+		</ul>
+	</article>
+
+	<article id="mejores-clubes-colombia">
+		<h2>Los Mejores Clubes de Colombia</h2>
+		<p>En Colombia, algunos de los clubes más destacados incluyen:</p>
+		<ul>
+			<li><a href="https://www.santafe.com.co" target="_blank">Independiente Santa Fe</a></li>
+			<li><a href="https://www.atlnacional.com.co" target="_blank">Atlético Nacional</a></li>
+			<li><a href="https://www.millonarios.com.co" target="_blank">Millonarios FC</a></li>
+			<li><a href="https://www.americadecali.co" target="_blank">América de Cali</a></li>
+			<li><a href="https://www.juniorfc.co" target="_blank">Junior FC</a></li>
+		</ul>
+	</article>
+</section>
+
+<aside>
+	<h3>Autor</h3>
+	<p>Este artículo fue creado con referencia a:<br>
+		<a href="https://www.fifa.com/">https://www.fifa.com/</a>
+	</p>
+</aside>
+
+<footer>Daniel Felipe Lobo Rivera, correo fdlobho@gmail.com, contacto 3236179794 - FOOTER</footer>
